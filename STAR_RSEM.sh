@@ -231,4 +231,7 @@ samtools index ${filename}.toTranscriptome.bam
 samtools index ${filename}.sortedByCoord.bam
 rm *.fq
 
+###### RSEM counts matrix generation: Combinding results from each sample/control into one data matrix for downstream analysis.
+
+rsem-generate-data-matrix Cnt1.genes.results  Cnt2.genes.results  Cnt3.genes.results  Cond1.genes.results  Cond1.genes.results  Cond3.genes.results > rsem_prop_counts.matrix
 
