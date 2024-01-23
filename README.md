@@ -1,6 +1,6 @@
 This workflow will perform STAR mapping / RSEM quantification on paired-end RNA-seq data in <.fastq> format.
 
-It is written to run as a batch script <sbatch> using SLURM in bash/shell. 
+It is written to run as a batch script (sbatch .sh) using SLURM in bash/shell. 
 
 In addition to STAR and RSEM, this workflow will require trim_galore, bedGraphToBigWig, ucsc_tools, samtools, bedtools and r programs.
 
