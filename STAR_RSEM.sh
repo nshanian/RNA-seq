@@ -4,6 +4,8 @@
 #################
 #number of nodes you are requesting, the more you ask for the longer you wait
 #SBATCH -c 2
+# set the account for billing (if running on a cluster)
+#SBATCH --account=user id 
 #SBATCH --mem=60G
 
 
