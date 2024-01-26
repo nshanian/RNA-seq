@@ -1,4 +1,4 @@
-This repository contain tools for performing alignment and quantitation of transcript abundances from RNA-Seq data in <.fastq> format.
+This repository contain tools for performing alignment and quantitation of transcript abundances from RNA-seq data in <.fastq> format.
 
 They are written to run as a batch scripts (sbatch .sh) using SLURM in bash/shell. 
 
