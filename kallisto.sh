@@ -23,7 +23,7 @@
 #
 #SBATCH --export=ALL
 
-############## kallisto is a program for quantifying abundances of transcripts from bulk and single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. 
+############## kallisto is a program for quantifying abundances of transcripts from bulk and single-cell RNA-seq data, or more generally of target sequences using high-throughput sequencing reads. 
 ############## It is based on the novel idea of pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.
 ###### For documentation see https://pachterlab.github.io/kallisto/about
 ###### To submit this script, type this on the command line in shell from the directory where this script is:    CHANGE variables here before submitting
@@ -64,7 +64,7 @@ fastqTwoFilePairA=`ls ${fastqDir}/*${sampleBarcode}*_2_pf.fastq.gz | head -1`
 # run kallisto again to get bam files
     kallisto quant -i ${index} -o ${outputdir} -b 30 --genomebam --gtf /<path_to_gtf_file>/Homo_sapiens.GRCh38.94.gtf.gz  --chromosomes /<path_to_chr_sizes_file>/hg38_chr_sizes.txt  ${fastqOneFilePairA} ${fastqTwoFilePairA} #| samtools view -Sb -> ${sample}.genome.bam
 
-# sort and index bam files (Kallisto does sorting and indexing automatically)
+# sort and index bam files (kallisto does sorting and indexing automatically)
 #    samtools sort -m 12G ${sample}.genome.bam ${sample}.genome.sorted
 #    samtools index ${sample}.genome.sorted.bam
 
