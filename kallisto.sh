@@ -30,7 +30,7 @@
 #
 #  for sampleID in cnt1 cnt2 cnt3 rep1 rep2 rep3
 #  do
-#      sbatch -J kallisto_${sampleID} --export=sample=${sampleID},workingDir=/<path to working directory>,fastqDir=/<path to fastq files>/,barcodes=/<path to barcodes.txt file> kallisto_hg38.sh
+#      sbatch -J kallisto_${sampleID} --export=sample=${sampleID},workingDir=/<path to working directory>,fastqDir=/<path to fastq files>/,barcodes=/<path to barcodes.txt file> kallisto.sh
 #  done
 #######
 
