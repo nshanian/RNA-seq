@@ -10,6 +10,8 @@ This workflow uses STAR v2.5.3a and RSEM v1.2.30 and GRCh38/hg38 assembly of the
 
 https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/. 
 
+https://github.com/ENCODE-DCC/rna-seq-pipeline
+
 Please see below for information on each module used in the workflow:
 
 https://github.com/alexdobin/STAR  ,   https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf
