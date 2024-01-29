@@ -12,7 +12,7 @@ In addition to `STAR` and `RSEM`, the modules in the workflows will require:
 
 Reference genome files for `STAR` and `RSEM` are also required.
 
-The `STAR_RSEM.sh` workflow uses STAR v2.5.3a and RSEM v1.2.30 and `GRCh38/hg38` assembly of the human genome:
+The `STAR_RSEM.sh` workflow uses STAR v2.5.3a and RSEM v1.2.30 and GRCh38/hg38 assembly of the human genome:
   
 https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/.
 
