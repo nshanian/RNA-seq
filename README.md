@@ -1,4 +1,6 @@
-## RNA-seq alignment and quantitation
+## RNA-seq data analysis 
+
+## Part 1: Alignment and Quantitation
 
 This repository contains workflows and tools for performing alignment and quantitation of transcript abundances from RNA-seq data.
 
@@ -18,7 +20,7 @@ https://github.com/ENCODE-DCC/rna-seq-pipeline
 
 ## Documentation and References:
 
-Please see below for information on each module used in the provided workflows:
+Please see below for information on each module used in the provided workflows,
   
   https://github.com/alexdobin/STAR , https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf
 
