@@ -1,8 +1,8 @@
-## RNA-seq alignment and quanitation
+## RNA-seq alignment and quantitation
 
-This repository contain workflows and tools for performing alignment and quantitation of transcript abundances from RNA-seq data.
+This repository contains workflows and tools for performing alignment and quantitation of transcript abundances from RNA-seq data.
 
-They are written to run as batch shell scripts using SLURM on a high performance computing (HPC) cluser. 
+They are written to run as batch shell scripts using SLURM on a high performance computing (HPC) cluster. 
 
 In addition to **STAR** and **RSEM**, the workflows will require: 
 
@@ -32,21 +32,19 @@ https://hgdownload.soe.ucsc.edu/downloads.html#utilities_downloads
 
 https://www.htslib.org/download/
   
-  https://bedtools.readthedocs.io/en/latest/
+https://bedtools.readthedocs.io/en/latest/
   
-  https://broadinstitute.github.io/picard/
+https://broadinstitute.github.io/picard/
   
-  https://bowtie-bio.sourceforge.net/index.shtml
+https://bowtie-bio.sourceforge.net/index.shtml
 
 https://ccb.jhu.edu/software/tophat/index.shtml
 
 https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
   
-  https://cole-trapnell-lab.github.io/cufflinks/
+https://cole-trapnell-lab.github.io/cufflinks/
   
-  https://github.com/igvteam/igv
+https://github.com/igvteam/igv
 
 https://www.r-project.org/
-  
-  
   
