@@ -6,9 +6,9 @@ This repository contains workflows and tools for performing alignment and quanti
 
 The workflows are written to run as batch shell scripts using SLURM on a high performance computing (HPC) cluster. 
 
-In addition to **STAR** and **RSEM**, the workflows will require: 
+In addition to **STAR** and **RSEM**, the modules in the workflows will require: 
 
-**trim_galore, bedGraphToBigWig, ucsc_tools, samtools, bedtools and r programs.**
+**trim_galore, bedGraphToBigWig, ucsc_tools, samtools, bedtools** and **r** programs.
 
 Reference genome files for STAR and RSEM are also required.
 
