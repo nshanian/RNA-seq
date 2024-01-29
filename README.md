@@ -4,15 +4,15 @@
 
 This repository contains workflows and tools for performing alignment and quantitation of transcript abundances from RNA-seq data.
 
-The workflows are written to run as batch shell scripts using SLURM on a high performance computing (HPC) cluster. 
+The workflows are written to run as batch shell scripts using `SLURM` on a high performance computing (HPC) cluster. 
 
-In addition to **STAR** and **RSEM**, the modules in the workflows will require: 
+In addition to `STAR` and `RSEM`, the modules in the workflows will require: 
 
-**trim_galore, bedGraphToBigWig, ucsc_tools, samtools, bedtools** and **r** programs.
+`trim_galore`, `bedGraphToBigWig`, `ucsc_tools`, `samtools`, `bedtools` and `r` programs.
 
-Reference genome files for STAR and RSEM are also required.
+Reference genome files for `STAR` and `RSEM` are also required.
 
-The STAR_RSEM.sh workflow uses STAR v2.5.3a and RSEM v1.2.30 and GRCh38/hg38 assembly of the human genome:
+The `STAR_RSEM.sh` workflow uses STAR v2.5.3a and RSEM v1.2.30 and `GRCh38/hg38` assembly of the human genome:
   
 https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/.
 
