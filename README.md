@@ -8,7 +8,7 @@ The workflows can be run on paired-end (PE) or single-end (SE) next-generation s
 
 The workflows are written to run as batch shell scripts using `SLURM` on a high performance computing (HPC) cluster. 
 
-The main `STAR_RSEM.sh` workflow uses STAR v2.5.3a and `rsem` v1.2.30 and GRCh38/hg38 assembly of the human genome:
+The main `STAR_RSEM.sh` workflow uses `STAR` v2.5.3a and `rsem` v1.2.30 and GRCh38/hg38 assembly of the human genome:
   
 https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/.
 
