@@ -14,11 +14,11 @@ Appropriate reference genome files can be downloaded from GENCODE's website:
 
 https://www.gencodegenes.org/human/release_38.html
 
-The `STAR_RSEM.sh` workflow uses STAR v2.5.3a and RSEM v1.2.30 and GRCh38/hg38 assembly of the human genome:
+The main `STAR_RSEM.sh` workflow uses STAR v2.5.3a and RSEM v1.2.30 and GRCh38/hg38 assembly of the human genome:
   
 https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/.
 
-For documentation on `STAR_RSEM.ENCODE.sh` see:
+For documentation on an additional `STAR_RSEM.ENCODE.sh` workflow from the ENCODE consortium see:
 
 https://github.com/ENCODE-DCC/rna-seq-pipeline
 
