@@ -8,15 +8,17 @@ The workflows can be run on paired-end (PE) or single-end (SE) next-generation s
 
 The workflows are written to run as batch shell scripts using `SLURM` on a high performance computing (HPC) cluster. 
 
+The main `STAR_RSEM.sh` workflow uses STAR v2.5.3a and RSEM v1.2.30 and GRCh38/hg38 assembly of the human genome:
+  
+https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/.
+
 Reference genome files in `<.gtf>` and `<.fasta>` formats for `STAR` and `RSEM` are required for generating the reference indexes. 
 
 Appropriate reference genome files can be downloaded from GENCODE's website:
 
 https://www.gencodegenes.org/human/release_38.html
 
-The main `STAR_RSEM.sh` workflow uses STAR v2.5.3a and RSEM v1.2.30 and GRCh38/hg38 assembly of the human genome:
-  
-https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/.
+Examples for generating `STAR` and `RSEM` indexes from references genome files are provided for the hg38 assembly of the human genome.
 
 For documentation on an additional `STAR_RSEM.ENCODE.sh` workflow from the ENCODE consortium see:
 
