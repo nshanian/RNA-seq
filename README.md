@@ -10,7 +10,11 @@ In addition to `STAR` and `RSEM`, the modules in the workflows will require:
 
 `trim_galore`, `bedGraphToBigWig`, `ucsc_tools`, `samtools`, `bedtools` and `r` programs.
 
-Reference genome files for `STAR` and `RSEM` are also required.
+Reference genome files `<.gtf>` and `<.fasta>` for `STAR` and `RSEM` are also required for generating the reference indexes. 
+
+Appropriate reference genome files can be downloaded from GENCODE's website:
+
+https://www.gencodegenes.org/human/release_38.html
 
 The `STAR_RSEM.sh` workflow uses STAR v2.5.3a and RSEM v1.2.30 and GRCh38/hg38 assembly of the human genome:
   
@@ -22,11 +26,11 @@ https://github.com/ENCODE-DCC/rna-seq-pipeline
 
 Please see below for information on each module used in the provided workflows.
   
-  https://github.com/alexdobin/STAR , https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf
+https://github.com/alexdobin/STAR , https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf
 
 http://deweylab.biostat.wisc.edu/rsem/
   
-  https://pachterlab.github.io/kallisto/about
+https://pachterlab.github.io/kallisto/about
 
 https://github.com/FelixKrueger/TrimGalore
 
