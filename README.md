@@ -2,13 +2,11 @@
 
 ## Part 1: Alignment and Quantitation
 
-This repository contains workflows and tools for performing alignment and quantitation of transcript abundances from RNA-seq data.
+This repository contains workflows and tools for performing alignment and quantitation of transcript abundances from RNA-seq data. 
+
+The workflows can be run on paired-end (PE) or single-end (SE) next-generation sequcning (NGS) data of bulk, as well as single-cell RNA-seq (scRNA-seq) in `.fastq` format.
 
 The workflows are written to run as batch shell scripts using `SLURM` on a high performance computing (HPC) cluster. 
-
-In addition to `STAR` and `RSEM`, the modules in the workflows will require: 
-
-`trim_galore`, `bedGraphToBigWig`, `ucsc_tools`, `samtools`, `bedtools` and `r` programs.
 
 Reference genome files `<.gtf>` and `<.fasta>` for `STAR` and `RSEM` are also required for generating the reference indexes. 
 
@@ -22,10 +20,14 @@ https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/.
 
 https://github.com/ENCODE-DCC/rna-seq-pipeline
 
-## Documentation and References:
+In addition to `STAR` and `RSEM`, the modules in the workflows will require: 
+
+`trim_galore`, `bedGraphToBigWig`, `ucsc_tools`, `picard-tools`, `samtools`, `bedtools`, `bowtie`, `tophat`, `fastqc`, `igvtools`, `cufflinks` and `r` programs.
 
 Please see below for information on each module used in the provided workflows.
-  
+
+## Documentation and References:
+
 https://github.com/alexdobin/STAR , https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf
 
 http://deweylab.biostat.wisc.edu/rsem/
@@ -53,4 +55,3 @@ https://cole-trapnell-lab.github.io/cufflinks/
 https://github.com/igvteam/igv
 
 https://www.r-project.org/
-  
