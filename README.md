@@ -18,6 +18,8 @@ The `STAR_RSEM.sh` workflow uses STAR v2.5.3a and RSEM v1.2.30 and GRCh38/hg38 a
   
 https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/.
 
+For documentation on `STAR_RSEM.ENCODE.sh` see:
+
 https://github.com/ENCODE-DCC/rna-seq-pipeline
 
 In addition to `STAR` and `RSEM`, the modules in the workflows will require: 
