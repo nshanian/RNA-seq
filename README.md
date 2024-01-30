@@ -4,11 +4,11 @@
 
 This repository contains workflows and tools for performing alignment and quantitation of transcript abundances from RNA-seq data. 
 
-The workflows can be run on paired-end (PE) or single-end (SE) next-generation sequcning (NGS) data of bulk, as well as single-cell RNA-seq (scRNA-seq) in `.fastq` format.
+The workflows can be run on paired-end (PE) or single-end (SE) next-generation sequcning (NGS) of bulk, as well as single-cell RNA-seq data in `.fastq` format.
 
 The workflows are written to run as batch shell scripts using `SLURM` on a high performance computing (HPC) cluster. 
 
-Reference genome files `<.gtf>` and `<.fasta>` for `STAR` and `RSEM` are also required for generating the reference indexes. 
+Reference genome files in `<.gtf>` and `<.fasta>` formats for `STAR` and `RSEM` are required for generating the reference indexes. 
 
 Appropriate reference genome files can be downloaded from GENCODE's website:
 
