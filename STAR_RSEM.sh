@@ -4,8 +4,8 @@
 #################
 #number of nodes you are requesting, the more you ask for the longer you wait
 #SBATCH -c 2
-# set the account for billing (if running on a cluster)
-#SBATCH --account=user id 
+# set the account for running on hpc cluster
+#SBATCH --account=userid 
 #SBATCH --mem=60G
 
 
