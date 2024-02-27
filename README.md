@@ -26,7 +26,7 @@ https://github.com/ENCODE-DCC/rna-seq-pipeline
 
 In addition to `STAR` and `rsem`, the modules in the workflows will require: 
 
-`trim_galore`, `bedGraphToBigWig`, `ucsc_tools`, `picard-tools`, `samtools`, `bedtools`, `bowtie`, `tophat`, `fastqc`, `igvtools`, `cufflinks` and `r` programs.
+`trim_galore`, `bedGraphToBigWig`, `ucsc_tools`, `picard-tools`, `samtools`, `bedtools`, `bowtie`, `tophat`, `fastqc`, `igvtools`, `cufflinks` and `R` programs.
 
 Please see below for information on each module used in the provided workflows.
 
