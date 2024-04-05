@@ -1,6 +1,6 @@
 ## RNA-seq data analysis 
 
-## Part 1: Alignment and Quantitation
+### Part 1: Alignment and Quantitation
 
 This repository contains workflows and tools for performing alignment and quantitation of transcript abundances from RNA-seq data. 
 
